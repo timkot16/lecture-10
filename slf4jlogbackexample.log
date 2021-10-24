@@ -1,0 +1,38 @@
+24.10.2021 00:15:10.256 [main] INFO   b.i.j.k.ConnectionWithPropertiesFile - File loaded src/main/resources/db.properties
+24.10.2021 00:15:10.269 [main] INFO   b.i.j.k.ConnectionWithPropertiesFile - Connection with JDBC_DRIVER org.mariadb.jdbc.Driver
+24.10.2021 00:15:10.367 [main] INFO   b.i.j.k.ConnectionWithPropertiesFile - Connection with DATABASE_URL jdbc:mariadb://localhost:3306/car_service
+24.10.2021 11:50:10.242 [main] INFO   b.i.j.k.ConnectionWithPropertiesFile - File loaded src/main/resources/db.properties
+24.10.2021 11:50:10.255 [main] INFO   b.i.j.k.ConnectionWithPropertiesFile - Connection with JDBC_DRIVER org.mariadb.jdbc.Driver
+24.10.2021 11:50:10.398 [main] INFO   b.i.j.k.ConnectionWithPropertiesFile - Connection with DATABASE_URL jdbc:mariadb://localhost:3306/car_service
+24.10.2021 13:24:01.729 [main] INFO   b.i.j.k.ConnectionWithPropertiesFile - File loaded src/main/resources/db.properties
+24.10.2021 13:24:01.743 [main] INFO   b.i.j.k.ConnectionWithPropertiesFile - Connection with JDBC_DRIVER org.mariadb.jdbc.Driver
+24.10.2021 13:24:01.884 [main] INFO   b.i.j.k.ConnectionWithPropertiesFile - Connection with DATABASE_URL jdbc:mariadb://localhost:3306/car_service
+24.10.2021 13:24:01.893 [main] ERROR  b.i.j.kotkovski.Main - Statement didn't create
+java.sql.SQLNonTransientConnectionException: (conn=60) createStatement() is called on closed connection
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:73)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:181)
+	at org.mariadb.jdbc.MariaDbConnection.checkConnection(MariaDbConnection.java:230)
+	at org.mariadb.jdbc.MariaDbConnection.createStatement(MariaDbConnection.java:184)
+	at by.itacademy.javaenterpise.kotkovski.Main.main(Main.java:18)
+24.10.2021 13:26:21.922 [main] INFO   b.i.j.k.ConnectionWithPropertiesFile - File loaded src/main/resources/db.properties
+24.10.2021 13:26:21.934 [main] INFO   b.i.j.k.ConnectionWithPropertiesFile - Connection with JDBC_DRIVER org.mariadb.jdbc.Driver
+24.10.2021 13:26:22.031 [main] INFO   b.i.j.k.ConnectionWithPropertiesFile - Connection with DATABASE_URL jdbc:mariadb://localhost:3306/car_service
+24.10.2021 13:26:22.038 [main] INFO   b.i.j.kotkovski.Main - Statement is created
+24.10.2021 13:28:43.639 [main] INFO   b.i.j.k.ConnectionWithPropertiesFile - File loaded src/main/resources/db.properties
+24.10.2021 13:28:43.654 [main] INFO   b.i.j.k.ConnectionWithPropertiesFile - Connection with JDBC_DRIVER org.mariadb.jdbc.Driver
+24.10.2021 13:28:43.748 [main] INFO   b.i.j.k.ConnectionWithPropertiesFile - Connection with DATABASE_URL jdbc:mariadb://localhost:3306/car_service
+24.10.2021 13:28:43.756 [main] INFO   b.i.j.kotkovski.Main - Statement is created
+24.10.2021 13:28:43.781 [main] ERROR  b.i.j.kotkovski.Main - Statement didn't create
+java.sql.SQLDataException: Current position is after the last row
+	at org.mariadb.jdbc.internal.com.read.resultset.SelectResultSet.checkObjectRange(SelectResultSet.java:628)
+	at org.mariadb.jdbc.internal.com.read.resultset.SelectResultSet.getInt(SelectResultSet.java:984)
+	at org.mariadb.jdbc.internal.com.read.resultset.SelectResultSet.getInt(SelectResultSet.java:990)
+	at by.itacademy.javaenterpise.kotkovski.Main.main(Main.java:30)
+24.10.2021 13:31:02.687 [main] INFO   b.i.j.k.ConnectionWithPropertiesFile - File loaded src/main/resources/db.properties
+24.10.2021 13:31:02.703 [main] INFO   b.i.j.k.ConnectionWithPropertiesFile - Connection with JDBC_DRIVER org.mariadb.jdbc.Driver
+24.10.2021 13:31:02.796 [main] INFO   b.i.j.k.ConnectionWithPropertiesFile - Connection with DATABASE_URL jdbc:mariadb://localhost:3306/car_service
+24.10.2021 13:31:02.804 [main] INFO   b.i.j.kotkovski.Main - Statement is created
+24.10.2021 13:39:19.760 [main] INFO   b.i.j.k.ConnectionWithPropertiesFile - File loaded src/main/resources/db.properties
+24.10.2021 13:39:19.774 [main] INFO   b.i.j.k.ConnectionWithPropertiesFile - Connection with JDBC_DRIVER org.mariadb.jdbc.Driver
+24.10.2021 13:39:19.865 [main] INFO   b.i.j.k.ConnectionWithPropertiesFile - Connection with DATABASE_URL jdbc:mariadb://localhost:3306/car_service
+24.10.2021 13:39:19.872 [main] INFO   b.i.j.kotkovski.Main - Statement is created
